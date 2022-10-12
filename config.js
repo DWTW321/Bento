@@ -12,7 +12,7 @@ const CONFIG = {
 
 	// General
 	name: 'DWTW',
-	openInNewTab: true,
+	openInNewTab: false,
 	twelveHourFormat: true,
 
 	// Theme
