@@ -13,7 +13,7 @@ const CONFIG = {
 	// General
 	name: 'DWTW',
 	openInNewTab: false,
-	twelveHourFormat: true,
+	twelveHourFormat: false,
 
 	// Theme
 	theme: 'latte-mocha',
