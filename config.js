@@ -70,19 +70,19 @@ const CONFIG = {
 			id: '3',
 			name: 'Piped',
 			icon: 'youtube',
-			link: 'https://piped.kavin.rocks/',
+			link: 'https://piped.garudalinux.org/',
 		},
 		{
 			id: '4',
 			name: 'Movies',
 			icon: 'film',
-			link: 'https://sflix.pro/',
+			link: 'https://moviestowatch.tv/',
 		},
 		{
 			id: '5',
 			name: 'Reddit',
 			icon: 'glasses',
-			link: 'https://libreddit.kavin.rocks/',
+			link: 'https://libreddit.spike.codes/',
 		},
 		{
 			id: '6',
@@ -143,19 +143,19 @@ const CONFIG = {
 			links: [
 				{
 					name: 'grime',
-					link: 'https://piped.kavin.rocks/playlist?list=PLYU-_TwC_ARfyAqUe29JcVx5Voo-V9GZm',
+					link: 'https://piped.garudalinux.org/playlist?list=PLYU-_TwC_ARfyAqUe29JcVx5Voo-V9GZm',
 				},
 				{
 					name: 'drill',
-					link: 'https://piped.kavin.rocks/playlist?list=PLY0AMVYms6p_m3tiZ_p-LFybejr8_GWAH',
+					link: 'https://piped.garudalinux.org/playlist?list=PLY0AMVYms6p_m3tiZ_p-LFybejr8_GWAH',
 				},
 				{
 					name: 'black metal',
-					link: 'https://piped.kavin.rocks/playlist?list=PLykNNMVjCDfWTLQqFMFHLNdNMWXEzfCRt',
+					link: 'https://piped.garudalinux.org/playlist?list=PLykNNMVjCDfWTLQqFMFHLNdNMWXEzfCRt',
 				},
 				{
 					name: 'chill',
-					link: 'https://piped.kavin.rocks/playlist?list=PLuDoiEqVUgegWFXgllgj1pL3JkeVfKA4m',
+					link: 'https://piped.garudalinux.org/playlist?list=PLuDoiEqVUgegWFXgllgj1pL3JkeVfKA4m',
 				},
 			],
 		},
