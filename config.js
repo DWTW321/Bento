@@ -16,9 +16,9 @@ const CONFIG = {
 	twelveHourFormat: false,
 
 	// Theme
-	theme: 'latte-mocha',
+	theme: 'solarized',
 	imageBackground: false,
-	
+
 	// Greetings
 	greetingMorning: 'Good morning!',
 	greetingAfternoon: 'Good afternoon,',
@@ -49,9 +49,9 @@ const CONFIG = {
 	hourDarkThemeActive: '18:30',
 	hourDarkThemeInactive: '07:00',
 
-  // ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
-  // ├┴┐│ │ │  │ │ ││││└─┐
-  // └─┘└─┘ ┴  ┴ └─┘┘└┘└─┘
+	// ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
+	// ├┴┐│ │ │  │ │ ││││└─┐
+	// └─┘└─┘ ┴  ┴ └─┘┘└┘└─┘
 
 	firstButtonsContainer: [
 		{
