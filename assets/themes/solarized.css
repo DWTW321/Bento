@@ -1,7 +1,7 @@
 :root {
     /* Light Colors  */
   
-    --background: #fdf6e3; /* Background color */
+    --background: #f7f1e3; /* Background color */
     --accent: #657b83; /* Hover color */
     --cards: #eee8d5; /* Cards color */
   
@@ -16,7 +16,7 @@
     ); /* Filter color */
   }
   
-  .darktheme {
+  .darktheme {  
     /* Dark Colors  */
   
     --background: #002b36; /* Background color */
