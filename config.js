@@ -16,7 +16,7 @@ const CONFIG = {
 	twelveHourFormat: false,
 
 	// Theme
-	theme: 'solarized',
+	theme: 'catppuccin',
 	imageBackground: false,
 
 	// Greetings
