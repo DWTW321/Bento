@@ -1,37 +1,45 @@
 :root {
-  /* Light Colors  */
-  /* Catppuccin is a dark-mode color palete. The theme is similar for both modes. */
 
-  --background: #575268; /* Background color */
-  --accent: #c3bac6; /* Hover color */
-  --cards: #988ba2; /* Cards color */
+  /* Light Colors  */
+  --background: var(--latte-base);
+  /* Background color */
+  --accent: var(--latte-surface0);
+  /* Hover color */
+  --cards: var(--latte-mantle);
+  /* Cards color */
 
   /* Fonts Color */
-  --fg: #d9e0ee; /* Foreground color */
-  --sfg: #f5e0dc; /* Secondary Foreground color */
+  --fg: var(--latte-text);
+  /* Foreground color */
+  --sfg: var(--latte-rosewater);
+  /* Secondary Foreground color */
 
   /* Image background  */
-  --imgcol: linear-gradient(
-    rgba(87, 82, 104, 0.85),
-    rgba(87, 82, 104, 0.85)
-  ); /* Filter color */
+  --imgbg: url(assets/background.jpg);
+  --imgcol: linear-gradient(hsla(var(--latte-base-h) calc(var(--latte-base-s) * 1%) calc((var(--latte-base-l) + 0) * 1%) / 70%),
+      hsla(var(--latte-base-h) calc(var(--latte-base-s) * 1%) calc((var(--latte-base-l) + 0) * 1%) / 90%));
+
 }
 
-.darktheme {
-  /* Dark Colors  */
 
-  --background: #1e1e2e; /* Background color */
-  --accent: #575268; /* Hover color */
-  --cards: #302d41; /* Cards color */
+.darktheme {
+
+  /* Dark Colors  */
+  --background: var(--mocha-base);
+  /* Background color */
+  --accent: var(--mocha-surface0);
+  /* Hover color */
+  --cards: var(--mocha-mantle);
+  /* Cards color */
 
   /* Fonts Color */
-  --fg: #d9e0ee; /* Foreground color */
-  --sfg: #f5e0dc; /* Secondary Foreground color */
+  --fg: var(--mocha-text);
+  /* Foreground color */
+  --sfg: var(--mocha-rosewater);
+  /* Secondary Foreground color */
 
   /* Image background  */
-  /* Image background  */
-  --imgcol: linear-gradient(
-    rgba(30, 30, 46, 0.85),
-    rgba(30, 30, 46, 0.85)
-  ); /* Filter color */
+  --imgcol: linear-gradient(hsla(var(--mocha-base-h) calc(var(--mocha-base-s) * 1%) calc((var(--mocha-base-l) + 0) * 1%) / 70%),
+      hsla(var(--mocha-base-h) calc(var(--mocha-base-s) * 1%) calc((var(--mocha-base-l) + 0) * 1%) / 90%));
+
 }
